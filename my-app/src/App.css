@@ -36,3 +36,38 @@
     transform: rotate(360deg);
   }
 }
+
+#contactContainer {
+  background-color: grey;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#aboutContainer {
+  background-color: grey;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#portfolioContainer {
+  background-color: grey;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+
+#basic-addon3 {
+  width: 100px;
+}
+
+#basic-addon4 {
+  width: 100px;
+}
+
+#submitBtn {
+  margin-top: 15px;
+  background-color: black;
+  border-color: black;
+}
+
+
