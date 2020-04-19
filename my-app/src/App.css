@@ -2,26 +2,18 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 #melPhoto {
   float: left;
-
   width: 20%;
-
   padding-right: 10px;
   margin-right: 10px;
   margin-left: 20px;
   margin-top: 15px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+body {
+  background-image: url("./background/memphis-mini.png");
+  font-family: "Muli", sans-serif !important;
 }
 
 .App-header {
@@ -35,47 +27,54 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
-#contactContainer {
-  background-color: grey;
+.container {
+  background-color: #7395ae;
+  color: white;
   padding: 20px;
   margin-top: 20px;
+  border-color: #747474;
+  border-style: groove;
+  border-width: 2px;
 }
 
-#aboutContainer {
-  background-color: grey;
-  padding: 20px;
-  margin-top: 20px;
+p {
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-left: 20px;
+  font-family: "Muli", sans-serif;
 }
 
-#portfolioContainer {
-  background-color: grey;
-  padding: 20px;
-  margin-top: 20px;
+hr {
+  margin-right: 20px;
+  margin-left: 20px;
+  padding: 1px;
+  background-color: #5d5c61;
 }
 
-#basic-addon3 {
-  width: 100px;
+h2 {
+  padding: 10px;
+  padding-bottom: 0px;
+  margin-left: 10px;
+  font-family: "Muli", sans-serif;
 }
 
-#basic-addon4 {
-  width: 100px;
+.card {
+  background-color: #c2cad0 !important;
+  border-color: #747474 !important;
+  border-width: 1.5px !important;
+  margin: 20px;
 }
 
-#submitBtn {
-  margin-top: 15px;
-  background-color: black;
-  border-color: black;
+.card-deck {
+  margin: 20px !important;
+}
+
+.card-title {
+  text-align: center;
+  color: black;
+}
+
+.card-body {
+  text-align: center;
+  color: black;
 }

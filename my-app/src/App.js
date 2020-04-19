@@ -4,14 +4,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar";
 import About from "./pages/About";
-// import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
-
-// NavBar on top => used to click between "pages"
-// /game => Game
-// /login => Login
-// /score => Score
-// ANYWHERE ELSE => Home
 
 function App() {
   return (
