@@ -7,6 +7,17 @@
   pointer-events: none;
 }
 
+#melPhoto {
+  float: left;
+
+  width: 20%;
+
+  padding-right: 10px;
+  margin-right: 10px;
+  margin-left: 20px;
+  margin-top: 15px;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: App-logo-spin infinite 20s linear;
@@ -55,7 +66,6 @@
   margin-top: 20px;
 }
 
-
 #basic-addon3 {
   width: 100px;
 }
@@ -69,5 +79,3 @@
   background-color: black;
   border-color: black;
 }
-
-
