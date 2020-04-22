@@ -33,6 +33,22 @@ const About = () => {
             teams and I'm currently looking to make a career change into Web
             Development!
           </p>
+          <p>Check out what I've been working on!</p>
+          <p id="links">
+            ~~~{" "}
+            <a
+              href="https://www.linkedin.com/in/mel-garza-14750a123/"
+              class="Links"
+              target="_blank"
+            >
+              Linkedin
+            </a>
+            ~~~
+            <a href="https://github.com/melg30" class="Links" target="_blank">
+              GitHub Profile
+            </a>{" "}
+            ~~~
+          </p>
         </Col>
       </Row>
     </>
